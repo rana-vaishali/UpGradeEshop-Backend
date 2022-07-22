@@ -33,8 +33,8 @@ mongoose
 
 app.use(express.json());
 app.use("/products", products);
-app.use("/addresses", addresses);
 app.use("/orders", orders);
+app.use("/addresses", addresses);
 app.use("/users", users);
 app.use("/auth", auth);
 
